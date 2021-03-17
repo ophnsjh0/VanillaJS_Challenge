@@ -1,0 +1,36 @@
+.guessnum {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+
+.rangeBar {
+  width: 300px;
+}
+
+.gnum {
+  font-weight: 400;
+}
+
+.js-usernum {
+  margin-left: 10px;
+}
+
+.userinput {
+  width: 45px;
+}
+
+.js-play {
+  margin-left: 10px;
+}
+
+.js-value {
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.js-result {
+  margin-top: 15px;
+  font-size: 19px;
+  font-weight: bold;
+}

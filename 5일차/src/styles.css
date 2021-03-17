@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+  }
+
+
+button {
+    margin-left: 10px;
+}
+
+span{
+    font-size : 20px;
+    font-weight: 500;
+    font-style: bold;
+}
