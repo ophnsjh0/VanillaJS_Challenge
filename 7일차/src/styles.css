@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+}
+
+button {
+  color: white;
+  font-size: 20px;
+}
+
+.js-result {
+  background-color: black;
+  color: white;
+  width: 95%;
+  height: 60px;
+  text-align: right;
+  font-size: 40px;
+  border: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.show {
+  grid-column: 1/4;
+}
+
+.zero {
+  grid-column: 1/3;
+}
+
+.js-reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  margin: 3px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.js-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(48, 47, 47, 0.925);
+  margin: 3px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.js-operation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  margin: 3px;
+  height: 60px;
+  border-radius: 10px;
+}
